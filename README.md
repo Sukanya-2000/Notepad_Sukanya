@@ -28,30 +28,19 @@ This is just a sample assignment project.
     <li> Install g++(C++ compiler): $ sudo apt-get install g++ -y </li>
     <li> Install Make: $ sudo apt-get install make -y </li>
     <li> Install qt5: $ sudo apt-get install qt5-default </li> 
-    <li>  Go to folder "Notepad--", compile Notepad--.pro and make </li> 
+    <li>  Go to folder "Notepad_Sukanya", compile Notepad_Sukanya.pro and make </li> 
      <ul>
              <li> $ cd Notepad-- </li>
-             <li> $ qmake Notepad--.pro </li>
+             <li> $ qmake Notepad_Sukanya.pro </li>
              <li> $ make </li>
              ## NOTE: Building the code from QT Creator is *recommended*. *Avoid* using make, it clutters the directory.
                  <li>To Install QT Creator: $ sudo apt-get install qt-creator -y </li>
     </ul>
 </ol>
 
-# Running Notepad--
-$ ./Notepad--
+# Running Notepad_Sukanya
+$ ./Notepad_Sukanya
 
-# Test Configration
-OS: Ubuntu 20.04.2 LTS x64bit
-
-RAM: 8 GB
-
-CPU: i7 6<sup>th</sup> gen
-
-QT Version: 5.12.8 
-
-
-# References
-1. I started the code from: https://www.youtube.com/watch?v=x858_WCtl_Y
-2. Layout Reference: https://code.qt.io/cgit/qt/qtbase.git/tree/examples/widgets/richtext/textedit
-3. Toggle Action (isChecked): https://stackoverflow.com/questions/45006166/how-to-make-qmenu-item-checkable-in-qt
+# Challenges
+1. Dialog Box attachment with resume
+2. Understanding working of actionbar
