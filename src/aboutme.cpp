@@ -17,3 +17,6 @@ AboutMe::~AboutMe()
 {
     delete ui;
 }
+
+
+
